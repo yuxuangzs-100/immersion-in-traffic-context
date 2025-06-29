@@ -1,0 +1,1800 @@
+{
+  "mod_elements": [
+    {
+      "name": "Hammer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/item/HammerItem.java",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/hammer.json"
+        ]
+      }
+    },
+    {
+      "name": "ImmersionInTrafficContext",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immersion_in_traffic_context",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Petroleum",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petroleum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/fluid/PetroleumFluid.java",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/petroleum_bucket.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/petroleum.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/fluid/types/PetroleumFluidType.java",
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/petroleum.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/PetroleumBlock.java",
+          "src/main/java/net/mcreator/immersionintrafficcontext/item/PetroleumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RoughAsphaltBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rough_asphalt_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/rough_asphalt_block.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/rough_asphalt_block.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/rough_asphalt_block.json",
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/rough_asphalt_block.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/RoughAsphaltBlockBlock.java"
+        ]
+      },
+      "path": "~/bolcks"
+    },
+    {
+      "name": "BituminousOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bituminous_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/worldgen/configured_feature/bituminous_ore.json",
+          "src/main/resources/data/immersion_in_traffic_context/worldgen/placed_feature/bituminous_ore.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/bituminous_ore.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/BituminousOreBlock.java",
+          "src/main/resources/data/immersion_in_traffic_context/neoforge/biome_modifier/bituminous_ore_biome_modifier.json",
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/bituminous_ore.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/bituminous_ore.json",
+          "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/bituminous_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "TestTube",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_tube",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/item/TestTubeItem.java",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/test_tube.json"
+        ]
+      }
+    },
+    {
+      "name": "PetroleumInASmallBottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petroleum_in_a_small_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/item/PetroleumInASmallBottleItem.java",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/petroleum_in_a_small_bottle.json"
+        ]
+      }
+    },
+    {
+      "name": "Q1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/q_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Asphalt",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/item/AsphaltItem.java",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/asphalt.json"
+        ]
+      }
+    },
+    {
+      "name": "Waste",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waste",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/waste.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/item/WasteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AsphaltRoadBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt_road_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/asphalt_road_block.json",
+          "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/asphalt_road_block.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/AsphaltRoadBlockBlock.java",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/asphalt_road_block.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/asphalt_road_block.json"
+        ]
+      },
+      "path": "~/bolcks"
+    },
+    {
+      "name": "AsphaltWorker",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt_worker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/advancement/asphalt_worker.json"
+        ]
+      }
+    },
+    {
+      "name": "WhatShouldIDo",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "what_should_i_do",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/advancement/what_should_i_do.json"
+        ]
+      }
+    },
+    {
+      "name": "Hammer1",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/advancement/hammer_1.json"
+        ]
+      }
+    },
+    {
+      "name": "W1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "w_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/w_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Q2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/q_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Q3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/q_3.json"
+        ]
+      },
+      "path": "~/bolcks/pf"
+    },
+    {
+      "name": "Q4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/q_4.json"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneLEDTube",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_led_tube",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/item/RedstoneLEDTubeItem.java",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/redstone_led_tube.json"
+        ]
+      }
+    },
+    {
+      "name": "B1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/b_1.json"
+        ]
+      }
+    },
+    {
+      "name": "YellowZebraCrossing",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_zebra_crossing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/yellow_zebra_crossing.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/YellowZebraCrossingBlock.java",
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/yellow_zebra_crossing.json",
+          "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/yellow_zebra_crossing.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/yellow_zebra_crossing.json"
+        ]
+      },
+      "path": "~/bolcks"
+    },
+    {
+      "name": "A1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/a_1.json"
+        ]
+      }
+    },
+    {
+      "name": "WhiteZebraCrossing",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_zebra_crossing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/white_zebra_crossing.json",
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/white_zebra_crossing.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/WhiteZebraCrossingBlock.java",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/white_zebra_crossing.json",
+          "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/white_zebra_crossing.json"
+        ]
+      },
+      "path": "~/bolcks"
+    },
+    {
+      "name": "A2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/a_2.json"
+        ]
+      },
+      "path": "~/bolcks/pf"
+    },
+    {
+      "name": "RightTurnAsphaltPavementBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_turn_asphalt_pavement_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/right_turn_asphalt_pavement_block.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/right_turn_asphalt_pavement_block.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/right_turn_asphalt_pavement_block.json",
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/right_turn_asphalt_pavement_block.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/RightTurnAsphaltPavementBlockBlock.java"
+        ]
+      },
+      "path": "~/bolcks"
+    },
+    {
+      "name": "A3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/a_3.json"
+        ]
+      },
+      "path": "~/bolcks/pf"
+    },
+    {
+      "name": "LeftTurnAsphaltPavementBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "left_turn_asphalt_pavement_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/left_turn_asphalt_pavement_block.json",
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/left_turn_asphalt_pavement_block.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/LeftTurnAsphaltPavementBlockBlock.java",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/left_turn_asphalt_pavement_block.json",
+          "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/left_turn_asphalt_pavement_block.json"
+        ]
+      },
+      "path": "~/bolcks"
+    },
+    {
+      "name": "A4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/a_4.json"
+        ]
+      },
+      "path": "~/bolcks/pf"
+    },
+    {
+      "name": "AsphaltPavementBlocksForLeftAndRightTurns",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt_pavement_blocks_for_left_and_right_turns",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/AsphaltPavementBlocksForLeftAndRightTurnsBlock.java",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/asphalt_pavement_blocks_for_left_and_right_turns.json",
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/asphalt_pavement_blocks_for_left_and_right_turns.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/asphalt_pavement_blocks_for_left_and_right_turns.json",
+          "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/asphalt_pavement_blocks_for_left_and_right_turns.json"
+        ]
+      },
+      "path": "~/bolcks"
+    },
+    {
+      "name": "A5",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/a_5.json"
+        ]
+      },
+      "path": "~/bolcks/pf"
+    },
+    {
+      "name": "UTurnAsphaltPavementBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "u_turn_asphalt_pavement_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/u_turn_asphalt_pavement_block.json",
+          "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/u_turn_asphalt_pavement_block.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/u_turn_asphalt_pavement_block.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/u_turn_asphalt_pavement_block.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/UTurnAsphaltPavementBlockBlock.java"
+        ]
+      },
+      "path": "~/bolcks"
+    },
+    {
+      "name": "A6",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/a_6.json"
+        ]
+      },
+      "path": "~/bolcks/pf"
+    },
+    {
+      "name": "StraightAheadAsphaltPavementBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "straight_ahead_asphalt_pavement_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/straight_ahead_asphalt_pavement_block.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/straight_ahead_asphalt_pavement_block.json",
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/straight_ahead_asphalt_pavement_block.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/StraightAheadAsphaltPavementBlockBlock.java",
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/straight_ahead_asphalt_pavement_block.json"
+        ]
+      },
+      "path": "~/bolcks"
+    },
+    {
+      "name": "A7",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/a_7.json"
+        ]
+      },
+      "path": "~/bolcks/pf"
+    },
+    {
+      "name": "StraightAheadAndLeftTurnAsphaltPavementBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "straight_ahead_and_left_turn_asphalt_pavement_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/straight_ahead_and_left_turn_asphalt_pavement_block.json",
+          "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/straight_ahead_and_left_turn_asphalt_pavement_block.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/straight_ahead_and_left_turn_asphalt_pavement_block.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/StraightAheadAndLeftTurnAsphaltPavementBlockBlock.java",
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/straight_ahead_and_left_turn_asphalt_pavement_block.json"
+        ]
+      },
+      "path": "~/bolcks"
+    },
+    {
+      "name": "A8",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/a_8.json"
+        ]
+      },
+      "path": "~/bolcks/pf"
+    },
+    {
+      "name": "StraightAheadAndRightTurnAsphaltPavementBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "straight_ahead_and_right_turn_asphalt_pavement_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/straight_ahead_and_right_turn_asphalt_pavement_block.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/StraightAheadAndRightTurnAsphaltPavementBlockBlock.java",
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/straight_ahead_and_right_turn_asphalt_pavement_block.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/straight_ahead_and_right_turn_asphalt_pavement_block.json",
+          "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/straight_ahead_and_right_turn_asphalt_pavement_block.json"
+        ]
+      },
+      "path": "~/bolcks"
+    },
+    {
+      "name": "A9",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/a_9.json"
+        ]
+      },
+      "path": "~/bolcks/pf"
+    },
+    {
+      "name": "DualYellowZebraCrossing",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dual_yellow_zebra_crossing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/dual_yellow_zebra_crossing.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/dual_yellow_zebra_crossing.json",
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/dual_yellow_zebra_crossing.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/DualYellowZebraCrossingBlock.java",
+          "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/dual_yellow_zebra_crossing.json"
+        ]
+      },
+      "path": "~/bolcks"
+    },
+    {
+      "name": "A10",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/a_10.json"
+        ]
+      },
+      "path": "~/bolcks/pf"
+    },
+    {
+      "name": "AsphaltRoadBlockIlluminationLight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt_road_block_illumination_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/asphalt_road_block_illumination_light.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/asphalt_road_block_illumination_light.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/AsphaltRoadBlockIlluminationLightBlock.java",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/asphalt_road_block_illumination_light.json",
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/asphalt_road_block_illumination_light.json"
+        ]
+      },
+      "path": "~/bolcks"
+    },
+    {
+      "name": "Junction1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junction_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/junction_1.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/junction_1.json",
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/junction_1.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/junction_1.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/Junction1Block.java"
+        ]
+      },
+      "path": "~/bolcks"
+    },
+    {
+      "name": "Junction2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junction_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/junction_2.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/junction_2.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/junction_2.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/Junction2Block.java",
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/junction_2.json"
+        ]
+      },
+      "path": "~/bolcks"
+    },
+    {
+      "name": "Z1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "z_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/z_1.json"
+        ]
+      },
+      "path": "~/bolcks/pf"
+    },
+    {
+      "name": "Z2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "z_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/z_2.json"
+        ]
+      },
+      "path": "~/bolcks/pf"
+    },
+    {
+      "name": "Junction3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junction_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/junction_3.json",
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/junction_3.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/junction_3.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/Junction3Block.java",
+          "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/junction_3.json"
+        ]
+      },
+      "path": "~/bolcks"
+    },
+    {
+      "name": "Z3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "z_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/z_3.json"
+        ]
+      },
+      "path": "~/bolcks/pf"
+    },
+    {
+      "name": "M1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/m_1.json"
+        ]
+      }
+    },
+    {
+      "name": "M3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/m_3.json"
+        ]
+      }
+    },
+    {
+      "name": "O1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/O1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "O2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/O2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "O3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/O3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "O4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/O4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "O5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/O5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "O6",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/O6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "O7",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/O7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "O8",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/O8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "O9",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/O9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "O10",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/O10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "O11",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_11",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/O11Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "O12",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_12",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/O12Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "O13",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_13",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/O13Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "O14",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_14",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/O14Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "Wdfgs1",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wdfgs_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/client/gui/Wdfgs1Screen.java",
+          "src/main/java/net/mcreator/immersionintrafficcontext/network/Wdfgs1SlotMessage.java",
+          "src/main/java/net/mcreator/immersionintrafficcontext/world/inventory/Wdfgs1Menu.java"
+        ]
+      }
+    },
+    {
+      "name": "AsphaltWorkbench",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt_workbench",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/asphalt_workbench.json",
+          "src/main/resources/assets/immersion_in_traffic_context/blockstates/asphalt_workbench.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/item/asphalt_workbench.json",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/AsphaltWorkbenchBlock.java",
+          "src/main/java/net/mcreator/immersionintrafficcontext/block/entity/AsphaltWorkbenchBlockEntity.java",
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/asphalt_workbench.json"
+        ]
+      }
+    },
+    {
+      "name": "AsphaltWorkbenchZaiKeGengXinShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt_workbench_zai_ke_geng_xin_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/AsphaltWorkbenchZaiKeGengXinShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "AsphaltWorkbenchFangKuaiBeiTiHuanShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt_workbench_fang_kuai_bei_ti_huan_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/AsphaltWorkbenchFangKuaiBeiTiHuanShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "L1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/l_1.json"
+        ]
+      }
+    },
+    {
+      "name": "AsphaltWorkbenchZaiKeGengXinShi22",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt_workbench_zai_ke_geng_xin_shi_22",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/AsphaltWorkbenchZaiKeGengXinShi22Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "Asphalt2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/Asphalt2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "W2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "w_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/W2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "As1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "as_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/As1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "Mma1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mma_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/Mma1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "Mma2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mma_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/Mma2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "Wdfgs2",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wdfgs_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/world/inventory/Wdfgs2Menu.java",
+          "src/main/java/net/mcreator/immersionintrafficcontext/client/gui/Wdfgs2Screen.java"
+        ]
+      }
+    },
+    {
+      "name": "Nns",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nns",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/NnsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "Mh1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mh_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/Mh1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "Vnc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vnc",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/VncProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    },
+    {
+      "name": "Vnc1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vnc_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/Vnc1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/liuc"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "time",
+      "type": "blockstate",
+      "scope": "map",
+      "value": "Blocks.AIR.defaultBlockState()"
+    },
+    {
+      "name": "switch1",
+      "type": "blockstate",
+      "scope": "map",
+      "value": "Blocks.AIR.defaultBlockState()"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Hammer"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Junction3",
+      "~CUSTOM:Junction2",
+      "~CUSTOM:Junction1",
+      "~CUSTOM:AsphaltRoadBlockIlluminationLight",
+      "~CUSTOM:DualYellowZebraCrossing",
+      "~CUSTOM:StraightAheadAndRightTurnAsphaltPavementBlock",
+      "~CUSTOM:StraightAheadAndLeftTurnAsphaltPavementBlock",
+      "~CUSTOM:StraightAheadAsphaltPavementBlock",
+      "~CUSTOM:UTurnAsphaltPavementBlock",
+      "~CUSTOM:AsphaltPavementBlocksForLeftAndRightTurns",
+      "~CUSTOM:LeftTurnAsphaltPavementBlock",
+      "~CUSTOM:RightTurnAsphaltPavementBlock",
+      "~CUSTOM:WhiteZebraCrossing",
+      "~CUSTOM:YellowZebraCrossing",
+      "~CUSTOM:AsphaltRoadBlock",
+      "~CUSTOM:BituminousOre",
+      "~CUSTOM:RoughAsphaltBlock"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:AsphaltWorkbench"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:AsphaltWorkbench",
+      "~CUSTOM:Junction3",
+      "~CUSTOM:Junction2",
+      "~CUSTOM:Junction1",
+      "~CUSTOM:AsphaltRoadBlockIlluminationLight",
+      "~CUSTOM:DualYellowZebraCrossing",
+      "~CUSTOM:StraightAheadAndRightTurnAsphaltPavementBlock",
+      "~CUSTOM:StraightAheadAndLeftTurnAsphaltPavementBlock",
+      "~CUSTOM:StraightAheadAsphaltPavementBlock",
+      "~CUSTOM:UTurnAsphaltPavementBlock",
+      "~CUSTOM:AsphaltPavementBlocksForLeftAndRightTurns",
+      "~CUSTOM:LeftTurnAsphaltPavementBlock",
+      "~CUSTOM:RightTurnAsphaltPavementBlock",
+      "~CUSTOM:WhiteZebraCrossing",
+      "~CUSTOM:YellowZebraCrossing",
+      "~CUSTOM:AsphaltRoadBlock",
+      "~CUSTOM:BituminousOre",
+      "~CUSTOM:RoughAsphaltBlock"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Petroleum"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:ImmersionInTrafficContext": [
+      "Hammer",
+      "Petroleum",
+      "Asphalt",
+      "Waste",
+      "RedstoneLEDTube",
+      "TestTube",
+      "PetroleumInASmallBottle",
+      "RoughAsphaltBlock",
+      "AsphaltRoadBlock",
+      "WhiteZebraCrossing",
+      "AsphaltRoadBlockIlluminationLight",
+      "YellowZebraCrossing",
+      "DualYellowZebraCrossing",
+      "RightTurnAsphaltPavementBlock",
+      "LeftTurnAsphaltPavementBlock",
+      "AsphaltPavementBlocksForLeftAndRightTurns",
+      "UTurnAsphaltPavementBlock",
+      "StraightAheadAsphaltPavementBlock",
+      "StraightAheadAndLeftTurnAsphaltPavementBlock",
+      "StraightAheadAndRightTurnAsphaltPavementBlock",
+      "Junction1",
+      "Junction2",
+      "Junction3",
+      "AsphaltWorkbench"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "advancements.what_should_i_do.descr": "What should I do?",
+      "block.immersion_in_traffic_context.junction_2": "Junction 2",
+      "block.immersion_in_traffic_context.junction_1": "Junction 1",
+      "advancements.asphalt_worker.title": "Asphalt Worker",
+      "block.immersion_in_traffic_context.u_turn_asphalt_pavement_block": "U Turn Asphalt Pavement Block",
+      "block.immersion_in_traffic_context.junction_3": "Junction 3",
+      "item_group.immersion_in_traffic_context.immersion_in_traffic_context": "Immersion In Traffic Context",
+      "item.immersion_in_traffic_context.waste": "Waste",
+      "block.immersion_in_traffic_context.yellow_zebra_crossing": "Yellow Zebra Crossing",
+      "block.immersion_in_traffic_context.petroleum": "Petroleum",
+      "item.immersion_in_traffic_context.asphalt": "Asphalt",
+      "block.immersion_in_traffic_context.dual_yellow_zebra_crossing": "Dual Yellow Zebra Crossing",
+      "block.immersion_in_traffic_context.bituminous_ore": "Bituminous Ore",
+      "gui.immersion_in_traffic_context.wdfgs_1.label_empty2": "\u003c\u003c!",
+      "gui.immersion_in_traffic_context.wdfgs_1.label_empty1": "!\u003e\u003e",
+      "item.immersion_in_traffic_context.test_tube": "Test Tube",
+      "item.immersion_in_traffic_context.petroleum_bucket": "Petroleum Bucket",
+      "advancements.hammer_1.descr": "hammer",
+      "block.immersion_in_traffic_context.rough_asphalt_block": "Rough Asphalt Block",
+      "advancements.hammer_1.title": "Hammer",
+      "block.immersion_in_traffic_context.white_zebra_crossing": "White Zebra Crossing",
+      "block.immersion_in_traffic_context.straight_ahead_and_left_turn_asphalt_pavement_block": "Straight Ahead And Left Turn Asphalt Pavement Block",
+      "block.immersion_in_traffic_context.asphalt_road_block_illumination_light": "Asphalt Road Block Illumination Light",
+      "fluid.immersion_in_traffic_context.petroleum": "Petroleum",
+      "block.immersion_in_traffic_context.asphalt_workbench": "Asphalt Workbench",
+      "block.immersion_in_traffic_context.right_turn_asphalt_pavement_block": "Right Turn Asphalt Pavement Block",
+      "gui.immersion_in_traffic_context.wdfgs_1.label_empty": "!\u003e\u003e",
+      "block.immersion_in_traffic_context.straight_ahead_asphalt_pavement_block": "Straight Ahead Asphalt Pavement Block",
+      "block.immersion_in_traffic_context.straight_ahead_and_right_turn_asphalt_pavement_block": "Straight Ahead And Right Turn Asphalt Pavement Block",
+      "block.immersion_in_traffic_context.asphalt_pavement_blocks_for_left_and_right_turns": "Asphalt Pavement Blocks For Left And Right Turns",
+      "item.immersion_in_traffic_context.hammer": "Hammer",
+      "block.immersion_in_traffic_context.asphalt_road_block": "Asphalt Road Block",
+      "advancements.asphalt_worker.descr": "asphalt worker",
+      "advancements.what_should_i_do.title": "What Should I Do",
+      "gui.immersion_in_traffic_context.wdfgs_1.label_petroleum": "Petroleum",
+      "item.immersion_in_traffic_context.redstone_led_tube": "Redstone LED Tube",
+      "block.immersion_in_traffic_context.left_turn_asphalt_pavement_block": "Left Turn Asphalt Pavement Block",
+      "item.immersion_in_traffic_context.petroleum_in_a_small_bottle": "Petroleum In A Small Bottle",
+      "gui.immersion_in_traffic_context.wdfgs_1.label_time60s_or_60s": "time\u003c2"
+    },
+    "zh_cn": {
+      "advancements.what_should_i_do.descr": "我该怎么办？",
+      "block.immersion_in_traffic_context.junction_2": "衔接处 2",
+      "block.immersion_in_traffic_context.junction_1": "衔接处 1",
+      "advancements.asphalt_worker.title": "沥青工人",
+      "block.immersion_in_traffic_context.u_turn_asphalt_pavement_block": "掉头沥青道路块",
+      "block.immersion_in_traffic_context.junction_3": "衔接处 3",
+      "item_group.immersion_in_traffic_context.immersion_in_traffic_context": "沉浸交通道路",
+      "item.immersion_in_traffic_context.waste": "废物",
+      "block.immersion_in_traffic_context.yellow_zebra_crossing": "黄色斑马线",
+      "block.immersion_in_traffic_context.petroleum": "石油",
+      "item.immersion_in_traffic_context.asphalt": "沥青",
+      "block.immersion_in_traffic_context.dual_yellow_zebra_crossing": "黄色双行斑马线",
+      "block.immersion_in_traffic_context.bituminous_ore": "沥青原矿",
+      "gui.immersion_in_traffic_context.wdfgs_1.label_empty2": "\u003c\u003c请取走",
+      "gui.immersion_in_traffic_context.wdfgs_1.label_empty1": "请取走\u003e\u003e",
+      "item.immersion_in_traffic_context.test_tube": "试管",
+      "item.immersion_in_traffic_context.petroleum_bucket": "石油桶",
+      "advancements.hammer_1.descr": "锤子",
+      "block.immersion_in_traffic_context.rough_asphalt_block": "粗糙沥青道路块",
+      "advancements.hammer_1.title": "锤子",
+      "block.immersion_in_traffic_context.white_zebra_crossing": "白色斑马线",
+      "block.immersion_in_traffic_context.straight_ahead_and_left_turn_asphalt_pavement_block": "直行左转沥青道路块",
+      "block.immersion_in_traffic_context.asphalt_road_block_illumination_light": "红石道路灯",
+      "fluid.immersion_in_traffic_context.petroleum": "石油",
+      "block.immersion_in_traffic_context.asphalt_workbench": "沥青制作台",
+      "block.immersion_in_traffic_context.right_turn_asphalt_pavement_block": "右转沥青道路块",
+      "gui.immersion_in_traffic_context.wdfgs_1.label_empty": "请取走\u003e\u003e",
+      "block.immersion_in_traffic_context.straight_ahead_asphalt_pavement_block": "直行沥青道路块",
+      "block.immersion_in_traffic_context.straight_ahead_and_right_turn_asphalt_pavement_block": "直行右转沥青道路块",
+      "block.immersion_in_traffic_context.asphalt_pavement_blocks_for_left_and_right_turns": "左右转沥青道路块",
+      "item.immersion_in_traffic_context.hammer": "锤子",
+      "block.immersion_in_traffic_context.asphalt_road_block": "沥青道路块",
+      "advancements.asphalt_worker.descr": "沥青工人",
+      "advancements.what_should_i_do.title": "我该怎么办",
+      "gui.immersion_in_traffic_context.wdfgs_1.label_petroleum": "石油",
+      "item.immersion_in_traffic_context.redstone_led_tube": "红石LED灯",
+      "block.immersion_in_traffic_context.left_turn_asphalt_pavement_block": "左转沥青道路块",
+      "item.immersion_in_traffic_context.petroleum_in_a_small_bottle": "小瓶石油",
+      "gui.immersion_in_traffic_context.wdfgs_1.label_time60s_or_60s": "时间\u003c2"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "bolcks",
+        "children": [
+          {
+            "name": "pf",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "liuc",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "immersion_in_traffic_context",
+    "modName": "immersion in traffic context ",
+    "version": "2.3.9",
+    "author": "yuxuangzs",
+    "websiteURL": "https://center.mcmod.cn/1095763/#/home/",
+    "license": "Apache License version 2.0",
+    "serverSideOnly": false,
+    "modPicture": "t01ab2c85c6d3ec88",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker yuxuangzs - https://center.mcmod.cn/1095763/#/home/",
+    "modElementsPackage": "net.mcreator.immersionintrafficcontext"
+  },
+  "mcreatorVersion": 202500113416
+}
